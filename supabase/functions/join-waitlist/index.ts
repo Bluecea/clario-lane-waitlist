@@ -55,7 +55,7 @@ serve(async (req) => {
           "Authorization": `Bearer ${RESEND_API_KEY}`,
         },
         body: JSON.stringify({
-          from: "ClarioLane <onboarding@resend.dev>",
+          from: "ClarioLane <noreply@clariolane.com>",
           to: [email],
           subject: "Welcome to ClarioLane Waitlist!",
           html: `
